@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+    height: 100%
+}
+#grayArea {
+    height: 100%;
+    width: 25%;
+    background-color: grey;
+    position:absolute;
+    padding: 20px;
+}
+.button {
+    color:black;
+    background-color: white;
+    padding: 1%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
