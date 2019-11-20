@@ -4,7 +4,8 @@
     cursor: default;
 }
 body {
-    background-color: rgb(121, 121, 121);
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     display:grid;
     grid-template-rows: 50px 450px 200px 50px;
@@ -83,4 +84,10 @@ nav {
     } 
 #title {
     text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.subTitle {
+  font-size: 30px;
 }
