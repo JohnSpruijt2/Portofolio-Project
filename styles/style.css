@@ -4,7 +4,7 @@
     cursor: default;
 }
 body {
-    background-color: white;
+    background-color: rgb(222, 222, 222);
     font-family: 'Roboto', sans-serif;
     height: 100%;
     display:grid;
@@ -31,11 +31,11 @@ main {
     background-image: url("../images/header.png");
 }
 nav {
-    margin-top: 25px;
     grid-area: nav;
-    width: 1200px;
-    margin: 0 auto;
     background-color: #222931;
+}
+nav .page {
+  background-color: #222931;
 }
 .button {
     color:rgb(207, 207, 207);
