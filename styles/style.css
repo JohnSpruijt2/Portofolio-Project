@@ -7,16 +7,11 @@ body {
     background-color: rgb(222, 222, 222);
     font-family: 'Roboto', sans-serif;
     height: 100%;
-    display:grid;
-    grid-template-rows: 50px 450px 200px 50px;
-    grid-template-areas:"nav"
-                        "header"
-                        "main"
-                        "footer";
+
 }
 .page {
     margin: 0 auto;
-    width: 1200px;
+    width: 75rem;
     background-color: white;
 }
 main {
@@ -24,11 +19,16 @@ main {
     grid-area: main;
     box-sizing: border-box;
     min-height: 200px;
-    max-height: 200px;
+    max-height: auto;
 }
 #header {
+    box-sizing: border-box;
+    padding-top: 2rem;
+    height: 30rem;
+    width: 100vw;
     grid-area: header;
     background-image: url("../images/header.png");
+    margin: 0;
 }
 nav {
     grid-area: nav;
@@ -86,7 +86,6 @@ nav .page {
     text-align: center;
     color: white;
     font-size: 40px;
-    margin-top: 25px;
 }
 .subTitle {
   font-size: 30px;
