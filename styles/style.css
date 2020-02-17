@@ -90,3 +90,10 @@ nav .page {
 .subTitle {
   font-size: 30px;
 }
+#projects {
+  margin-top: 5rem;
+}
+#project1 {
+  float: left;
+  max-width: 10rem;
+}
