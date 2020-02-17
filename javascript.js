@@ -1,3 +1,3 @@
-function btn(variabel) {
-    document.getElementById("div4").scrollIntoView({behavior: "smooth"});
+function scroll(id) {
+    document.getElementById(id).scrollIntoView({behavior: "smooth"});
 }
