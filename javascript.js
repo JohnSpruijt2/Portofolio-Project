@@ -19,7 +19,6 @@ function myFunction() {
   if (window.pageYOffset >= 1) {
     navbar.classList.add("sticky")
     document.getElementById("navLogo").style.opacity = "100"
-   
   } else {
     navbar.classList.remove("sticky");
     document.getElementById("navLogo").style.opacity = "0"
