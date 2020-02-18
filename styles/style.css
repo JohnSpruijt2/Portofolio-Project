@@ -97,3 +97,6 @@ nav .page {
   float: left;
   max-width: 10rem;
 }
+#projects h1 {
+  font-size: 3rem;
+}
