@@ -1,3 +1,4 @@
+//John Spruijt ©2020
 function scrollToThing(id) {
     document.getElementById(id).scrollIntoView({behavior: "smooth"});
 }
