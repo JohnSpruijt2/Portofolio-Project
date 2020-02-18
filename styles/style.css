@@ -32,9 +32,22 @@ nav {
   background-color: #222931;
 }
 #navLogo {
+  line-height: 3.5rem;
+  margin-left: 1rem;
   float: left;
-  display: none;
   color: white;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
 }
 .sticky {
   position: fixed;
@@ -54,13 +67,14 @@ nav {
 .button {
   color:rgb(207, 207, 207);
   background-color: #181d22;
-  padding: 9px;
-  width: 120px;
-  border: 1px solid rgb(207, 207, 207);
+  width: 9rem;
+  height: 2.5rem;
+  border: 0.1rem solid rgb(207, 207, 207);
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
   margin: 0.5rem 2rem;
   cursor: pointer;
 }
@@ -71,18 +85,18 @@ nav {
 #title {
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 3rem;
 }
 .subTitle {
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 #project1, #project3 {
   float: left;
-  max-width: 15rem;
+  max-width: 12rem;
 }
 #project2 {
   float: right;
-  max-width: 15rem;
+  max-width: 12rem;
 }
 #project1Div, #project2Div, #project3Div {
 

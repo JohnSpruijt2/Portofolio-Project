@@ -18,9 +18,10 @@ var navbar = document.getElementById("nav");
 function myFunction() {
   if (window.pageYOffset >= 1) {
     navbar.classList.add("sticky")
-    document.getElementById("navLogo").style.display = "inline-block"
+    document.getElementById("navLogo").style.opacity = "100"
+   
   } else {
     navbar.classList.remove("sticky");
-    document.getElementById("navLogo").style.display = "none"
+    document.getElementById("navLogo").style.opacity = "0"
   }
 } 
