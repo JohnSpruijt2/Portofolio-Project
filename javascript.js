@@ -2,7 +2,11 @@ function scrollToThing(id) {
     document.getElementById(id).scrollIntoView({behavior: "smooth"});
 }
 function scrollToTop() {
-    scrollTo(0,0)
+    window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
+      });
 }
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
@@ -14,7 +18,9 @@ var navbar = document.getElementById("nav");
 function myFunction() {
   if (window.pageYOffset >= 1) {
     navbar.classList.add("sticky")
+    document.getElementById("navLogo").style.display = "inline-block"
   } else {
     navbar.classList.remove("sticky");
+    document.getElementById("navLogo").style.display = "none"
   }
 } 

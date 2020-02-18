@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   cursor: default;
   box-sizing: border-box;
 }
@@ -16,10 +16,8 @@ body {
   background-color: white;
 }
 main {
-  padding: 10px;
+  padding: 2rem;
   box-sizing: border-box;
-  min-height: 200px;
-  max-height: auto;
 }
 #header {
   box-sizing: border-box;
@@ -30,9 +28,13 @@ main {
   margin: 0;
 }
 nav {
-  text-align: center;
   height: 3.5rem;
   background-color: #222931;
+}
+#navLogo {
+  float: left;
+  display: none;
+  color: white;
 }
 .sticky {
   position: fixed;
@@ -44,6 +46,7 @@ nav {
   width: 100%;
 }
 #navCenter {
+  text-align: center;
   background-color: #222931;
   margin: 0 auto;
   width: 75rem;
@@ -75,11 +78,11 @@ nav {
 }
 #project1, #project3 {
   float: left;
-  max-width: 10rem;
+  max-width: 15rem;
 }
 #project2 {
   float: right;
-  max-width: 10rem;
+  max-width: 15rem;
 }
 #project1Div, #project2Div, #project3Div {
 
