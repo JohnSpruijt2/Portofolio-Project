@@ -9,19 +9,15 @@
 <body>
 <nav id="nav">
   <div id="navCenter">
-      <a onclick="scroll('nav')" class="button">Home page</a>
-      <a href="pages/projects.html" class="button">Projects</a>
-      <div class="dropdown">
-              <a class="button">About me <i class="fas fa-caret-down"></i></a>
-              <div class="dropdown-content">
-                <a href="pages/education.html">Education</a>
-                <a href="pages/hobbies.html">Hobbies</a>
-              </div>
-      </div>
+      <a onclick="scrollToTop()" class="button">Home page</a>
+      <a onclick="scrollToThing('projects')" class="button">Projects</a>
+      <a onclick="scrollToThing()" class="button">Education</a>
+      <a onclick="scrollToThing()" class="button">Hobbies</a>
       <a href="pages/programming.html" class="button">Programming</a> 
   </div>
 
 </nav>
+<section id="whitespaceNav"></section>
 <section id="header">
     <h1 id="title">Welcome to the portofolio of John Spruijt!</h1>
 </section>
@@ -29,14 +25,7 @@
   <main class="page">
     <section id="whoAmI">
       <h2 class="subTitle">Who am i?  </h2>
-    <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus augue et mauris egestas blandit vel ac mauris.
-       Sed sollicitudin vestibulum quam. Vivamus sit amet ullamcorper mi. Sed in sem aliquet, ullamcorper massa eu, laoreet massa. Ut nec pellentesque sapien,
-        vitae commodo lacus. Duis congue lacus in augue bibendum, et tincidunt mi fringilla. Suspendisse potenti. Aliquam erat volutpat. Sed sed tincidunt felis.
-         Donec faucibus eros nec massa tristique suscipit.
-
-        Aliquam a mauris ut dolor consequat congue. Cras auctor tincidunt lectus, ullamcorper accumsan urna hendrerit nec. Aliquam eleifend nec mauris vel dapibus.
-         Nullam volutpat tortor tortor, non eleifend urna dapibus quis. Morbi feugiat metus eros, vel ultrices sem pretium non. Pellentesque sit amet nisl commodo,
-          cursus neque vitae, malesuada nunc. Sed vitae nisi sollicitudin, commodo lacus sit amet, mollis sem. </p>
+    <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus augue et mauris egestas blandit vel ac mauris. Sed sollicitudin vestibulum quam. Vivamus sit amet ullamcorper mi. Sed in sem aliquet, ullamcorper massa eu, laoreet massa. Ut nec pellentesque sapien, vitae commodo lacus. Duis congue lacus in augue bibendum, et tincidunt mi fringilla. Suspendisse potenti. Aliquam erat volutpat. Sed sed tincidunt felis. Donec faucibus eros nec massa tristique suscipit. Aliquam a mauris ut dolor consequat congue. Cras auctor tincidunt lectus, ullamcorper accumsan urna hendrerit nec. Aliquam eleifend nec mauris vel dapibus. Nullam volutpat tortor tortor, non eleifend urna dapibus quis. Morbi feugiat metus eros, vel ultrices sem pretium non. Pellentesque sit amet nisl commodo, cursus neque vitae, malesuada nunc. Sed vitae nisi sollicitudin, commodo lacus sit amet, mollis sem. </p>
     </section>
     
     <section id="projects" class="page">
@@ -52,6 +41,11 @@
             <p>This project was inspired by a page on reddit. I made this just for fun and doens't do anything special. It is made to annoy the user who is trying to make an account. The program annoys the user by changing the rules the user has to apply to.</p>
       </div>
        
+      <div id="project3Div">
+        <img src="images/project3.jpg" alt="project3" id="project3">
+        <h1>Mastermind</h1>
+          <p>This project was made directly after making the game 'Lingo' but this one took more time. It is made entirely in Javascript. It was quite tricky, but it works. It uses quite a lot of loops and id's. It doesn't work properly on a mobile device.</p>
+      </div>
     </section>
   </main>
 </section>
