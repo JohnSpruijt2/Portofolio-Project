@@ -25,3 +25,20 @@ function myFunction() {
     document.getElementById("navLogo").style.opacity = "0"
   }
 } 
+function setAge() {
+    var d = new Date();
+var year = d.getFullYear()--;
+var month = d.getMonth();
+var day = d.getDate();
+var age = year-2002;
+if (month == 10) {
+    if (day >= 28) {
+        age++
+    }
+}
+else if (month == 11) {
+    age++
+}
+document.getElementById("age").innerHTML = age;
+}
+setAge()
