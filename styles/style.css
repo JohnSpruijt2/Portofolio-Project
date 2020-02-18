@@ -97,6 +97,13 @@ nav .page {
   float: left;
   max-width: 10rem;
 }
+#project2 {
+  float: right;
+  max-width: 10rem;
+}
+#project1Div {
+  margin-bottom: 5rem;
+}
 #projects h1 {
   font-size: 3rem;
 }
