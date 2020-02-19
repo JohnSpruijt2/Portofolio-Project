@@ -19,26 +19,27 @@ var navbar = document.getElementById("nav");
 function myFunction() {
   if (window.pageYOffset >= 1) {
     navbar.classList.add("sticky")
-    document.getElementById("navLogo").style.opacity = "100"
+    document.getElementById("navLogo").style.opacity = "100";
   } else {
     navbar.classList.remove("sticky");
-    document.getElementById("navLogo").style.opacity = "0"
+    document.getElementById("navLogo").style.opacity = "0";
   }
 } 
 function setAge() {
     var d = new Date();
-var year = d.getFullYear()--;
+var year = d.getFullYear();
+    year--;
 var month = d.getMonth();
 var day = d.getDate();
 var age = year-2002;
 if (month == 10) {
     if (day >= 28) {
-        age++
+        age++;
     }
 }
 else if (month == 11) {
-    age++
+    age++;
 }
 document.getElementById("age").innerHTML = age;
 }
-setAge()
+setAge();
