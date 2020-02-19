@@ -12,6 +12,7 @@ body {
 
 }
 .page {
+  padding: 0;
   margin: 0 auto;
   width: 75rem;
   background-color: white;
@@ -88,14 +89,19 @@ nav {
   color: white;
   font-size: 3rem;
 }
+.text {
+  font-size: 1.3rem;
+}
 .subTitle {
   font-size: 2.5rem;
 }
 #project1, #project3 {
+  margin-right: 1rem;
   float: left;
   max-width: 12rem;
 }
 #project2 {
+  margin-left: 1rem;
   float: right;
   max-width: 12rem;
 }
@@ -111,4 +117,20 @@ nav {
   width: 73rem;
   margin: 0 auto;
   margin-top: 5rem;
+}
+#projects p {
+  font-size: 1.1rem;
+}
+#whoAmI, #projects {
+  border-bottom: 0.1rem grey solid;
+  padding-bottom: 3rem;
+}
+#whoAmI {
+  margin: 0 auto;
+  width: 70rem;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+#education {
+  font-size: 2rem;
 }
